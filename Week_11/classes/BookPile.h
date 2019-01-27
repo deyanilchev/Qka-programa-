@@ -3,9 +3,9 @@
 
 class BookPile {
 public:
-    void AddBook(Book b);
+    void AddBook(Book ook);
 
-    void RemoveBook();
+    bool RemoveBook();
 
     Book GetNextBook();
 
@@ -14,7 +14,7 @@ public:
     int GetNumBooks();
 
 protected:
-    vector<Book *> books;
+    vector<Book> books;
 };
 
 

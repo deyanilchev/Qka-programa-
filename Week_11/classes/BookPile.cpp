@@ -1,16 +1,30 @@
 #include <iostream>
 #include "BookPile.h"
 
-void BookPile::AddBook(Book b) {
-
+void BookPile::AddBook(Book book) {
+    books.push_back(book);
 }
 
-void BookPile::RemoveBook() {
+bool BookPile::RemoveBook() {
+    if(books.empty())
+        return false;
 
+    books.pop_back();
+    return true;
 }
 
 Book BookPile::GetNextBook() {
-    return Book();
+    if(books.empty()) {
+        return Book();
+    }
+
+    Book book;
+    Book returnedBook = books[books.size() - 1];
+
+    book.title = returnedBook.title;
+    book.author = returnedBook.author;
+
+    return book;
 }
 
 void BookPile::ListAllBooks() {
@@ -19,9 +33,12 @@ void BookPile::ListAllBooks() {
         return;
     }
 
-    // TODO: LIST ALL BOOKS
+    // This loops iterates through the vector's elements and prints them to the console
+    for (int i = 0; i < books.size(); ++i) {
+        cout << "Book " << i + 1 <<  " -> " << "Title: " << books[i].title << endl;
+    }
 }
 
 int BookPile::GetNumBooks() {
-    return 0;
+    return books.size();
 }
