@@ -6,7 +6,7 @@ void BookPile::AddBook(Book book) {
 }
 
 bool BookPile::RemoveBook() {
-    if(books.empty())
+    if (books.empty())
         return false;
 
     books.pop_back();
@@ -14,7 +14,7 @@ bool BookPile::RemoveBook() {
 }
 
 Book BookPile::GetNextBook() {
-    if(books.empty()) {
+    if (books.empty()) {
         return Book();
     }
 
@@ -28,14 +28,14 @@ Book BookPile::GetNextBook() {
 }
 
 void BookPile::ListAllBooks() {
-    if(books.empty()) {
+    if (books.empty()) {
         cout << "[EMPTY]" << endl;
         return;
     }
 
     // This loops iterates through the vector's elements and prints them to the console
     for (int i = 0; i < books.size(); ++i) {
-        cout << "Book " << i + 1 <<  " -> " << "Title: " << books[i].title << endl;
+        cout << "Book " << i + 1 << " -> " << this->parser.BookToString(books[i]) << endl;
     }
 }
 
