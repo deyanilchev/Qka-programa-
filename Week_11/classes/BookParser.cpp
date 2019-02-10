@@ -18,7 +18,26 @@ auto as_integer(Enumeration const value)
 
 
 string BookParser::BookToString(Book book) {
-    string result = "Title: " + book.title + ", Category: " + array[as_integer(book.type)];
+    string result = "Title: " + book.title + ", Category: " + array[as_integer(book.category)];
 
     return result;
+}
+
+BookCategory BookParser::stringToBookCategory(string category) {
+
+    // Parsing book category from string to BookCategory type
+
+    if(category.empty())
+        return BookCategory::Unknown;
+
+    if(category == "Biography" || category == "biography")
+        return BookCategory::Biography;
+
+    if(category == "History" || category == "history")
+        return BookCategory::History;
+
+    if(category == "Fiction" || category == "fiction")
+        return BookCategory::Fiction;
+
+    return BookCategory::Unknown;
 }

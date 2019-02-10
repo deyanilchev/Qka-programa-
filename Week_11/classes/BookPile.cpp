@@ -1,8 +1,9 @@
 #include <iostream>
 #include "BookPile.h"
 
-void BookPile::AddBook(Book book) {
+bool BookPile::AddBook(Book book) {
     books.push_back(book);
+    return true;
 }
 
 bool BookPile::RemoveBook() {

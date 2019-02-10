@@ -7,7 +7,7 @@
 
 class BookPile {
 public:
-    void AddBook(Book ook);
+    virtual bool AddBook(Book book);
 
     bool RemoveBook();
 

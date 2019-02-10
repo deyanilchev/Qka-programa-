@@ -10,6 +10,8 @@
 class BookParser {
 public:
     string BookToString(Book book);
+
+    BookCategory stringToBookCategory(string category);
 };
 
 

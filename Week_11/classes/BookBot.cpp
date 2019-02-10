@@ -1,7 +1,3 @@
-//
-// Created by Vlado on 03-Feb-19.
-//
-
 #include <iostream>
 #include "BookBot.h"
 
@@ -19,6 +15,7 @@ bool BookBot::PlaceDownBook(BookPile &p) {
     if(isEmpty)
         return false;
 
+    isEmpty = true;
     p.AddBook(this->book);
     return true;
 }

@@ -5,6 +5,8 @@
 #include <cstring>
 #include "classes/BookPile.h"
 #include "classes/BookBot.h"
+#include "classes/BookDrop.h"
+#include "classes/StoragePile.h"
 
 using namespace std;
 
@@ -148,7 +150,7 @@ int main() {
     cout << "   b) Failing to remove an element from an empty BookPile should not result in a program crash" << endl;
     BookPile emptyBookPile;
 
-    if(!emptyBookPile.RemoveBook()) {
+    if (!emptyBookPile.RemoveBook()) {
         cout << "Test passed" << endl;
     } else {
         cout << "Test failed" << endl;
@@ -157,7 +159,8 @@ int main() {
     cout << " Test 12: Getting a book from an empty BookPile should not result in a program crash" << endl;
     cout << emptyBookPile.GetNextBook().title << endl;
 
-    cout << endl << "=================================== BOOK_BOT TESTS (session 2) ===================================" << endl;
+    cout << endl << "=================================== BOOK_BOT TESTS (session 2) ==================================="
+         << endl;
 
     cout << " Test 1: New BookBots should be empty" << endl;
     cout << "   a) ListContents() should not print anything." << endl;
@@ -165,7 +168,9 @@ int main() {
     bot.ListContents();
 
     cout << " Test 2: Picking a book from pile should result in its display after calling ListContents. " << endl;
-    cout << "   a) Adding a BookPile to the BookBot and calling ListContents() should result in that Book information being printed" << endl;
+    cout
+            << "   a) Adding a BookPile to the BookBot and calling ListContents() should result in that Book information being printed"
+            << endl;
     BookPile pile1;
     Book book1;
     book1.author = "A Cool Guy";
@@ -175,8 +180,10 @@ int main() {
     bot.PickUpBook(pile1);
     bot.ListContents();
 
-    cout << " Test 3 : If a BookBot picks up a Book from a BookPile, that BookPile should no longer contain that Book" << endl;
-    cout << "   a) Adding a new BookPile with one book inside and checking if it displays that book's information" << endl;
+    cout << " Test 3 : If a BookBot picks up a Book from a BookPile, that BookPile should no longer contain that Book"
+         << endl;
+    cout << "   a) Adding a new BookPile with one book inside and checking if it displays that book's information"
+         << endl;
     BookPile pile2;
     Book book2;
     book2.title = "Title";
@@ -184,7 +191,9 @@ int main() {
     pile2.AddBook(book2);
     pile2.ListAllBooks();
 
-    cout << "   b) Adding the BookPile to the BookBot and picking up a book from it should result in that book no longer being in the BookPile. " << endl;
+    cout
+            << "   b) Adding the BookPile to the BookBot and picking up a book from it should result in that book no longer being in the BookPile. "
+            << endl;
     BookBot bot1;
     bot1.PickUpBook(pile2);
 
@@ -232,7 +241,7 @@ int main() {
 
     bot3.PickUpBook(pile3);
 
-    if (bot3.PickUpBook(pile3) == false) {
+    if (!bot3.PickUpBook(pile3)) {
         cout << "       Test passed" << endl;
     } else {
         cout << "       Test failed" << endl;
@@ -245,22 +254,83 @@ int main() {
     BookPile pile4;
     BookBot bot4;
 
-    if(!bot4.PickUpBook(pile4)) {
+    if (!bot4.PickUpBook(pile4)) {
         cout << "       Test passed" << endl;
     } else {
         cout << "       Test failed" << endl;
     }
 
-    cout << "=================================== BOOK_CATEGORY TESTS (session 2) ===================================" << endl << endl;
+    cout << "=================================== BOOK_CATEGORY TESTS (session 2) ==================================="
+         << endl << endl;
 
     BookParser parser;
 
-    cout << " Test 1: Creating a book should call its default constructor and it should have a default category and an empty title" << endl;
+    cout
+            << " Test 1: Creating a book should call its default constructor and it should have a default category and an empty title"
+            << endl;
     Book book3;
-    cout << parser.BookToString(book3);
+    cout << parser.BookToString(book3) << endl;
 
     cout << " Test 2: Adding BookType, title and author in the constructor should save the values" << endl;
     Book book4(BookCategory::Biography, "Book Title", "Book author");
-    cout << parser.BookToString(book4);
+    cout << parser.BookToString(book4) << endl;
+
+    cout << endl;
+
+    cout << "=================================== STORAGE_PILE TESTS (session 3) ==================================="
+         << endl << endl;
+
+    cout << " Test 1: Adding a Book to the BookDrop" << endl;
+    BookDrop drop;
+    drop.CheckIn();
+
+    drop.ListAllBooks();
+
+    cout << " Test 2: Checking out BookDrop should result in empty content" << endl;
+    drop.CheckOut();
+    drop.ListAllBooks();
+
+
+    // This snippet lives in your main testing function , and
+    // checks that your StoragePile is using the virtual
+    // keyword properly
+
+    // Create a StoragePile
+    StoragePile claire("Fiction");
+
+    // Create some Books
+    Book fiction;
+    fiction.title = " Barry Trotter and the Magic Rock ";
+    fiction.author = "K. J. Lowring ";
+    fiction.category = BookCategory::Fiction;
+
+    Book nonfiction;
+    nonfiction.title = " The C++ Programming Language ";
+    nonfiction.author = " Bjarne Stroustrup ";
+    nonfiction.category = BookCategory::Reference;
+
+    // Create a BookPile pointer to a StoragePile
+    BookPile *claire_pointer = &claire;
+
+
+    cout << " Test 3: Adding a wrong Book to the StoragePile" << endl;
+    // AddBook will fail
+    claire_pointer->AddBook(nonfiction);
+    claire.AddBook(nonfiction);
+    claire.ListAllBooks(); // empty
+
+    cout << " Test 4: Adding a right Book to the StoragePile" << endl;
+    // AddBook will succeed
+    claire_pointer->AddBook(fiction);
+    claire.AddBook(fiction);
+    claire.ListAllBooks(); // 2 copies of Barry Trotter
+
+    cout << " Test 5: Adding a book to a pile with unspecified type" << endl;
+    // StoragePiles don 't care
+    StoragePile dave;
+    dave.AddBook(fiction);
+    dave.AddBook(nonfiction);
+    dave.ListAllBooks();
+
     return 0;
 }

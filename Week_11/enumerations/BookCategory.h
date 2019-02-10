@@ -9,7 +9,8 @@ enum class BookCategory {
     History,
     Reference,
     Fiction,
-    Unknown
+    Unknown,
+    NoMatter
 };
 
 #endif

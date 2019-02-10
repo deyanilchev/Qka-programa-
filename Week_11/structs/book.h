@@ -12,15 +12,15 @@ using namespace std;
 
 struct Book {
 
-    Book(BookCategory type = BookCategory::Unknown, string title = "", string author = "") : type(type),
+    Book(BookCategory category1 = BookCategory::Unknown, string title = "", string author = "") : category(category1),
                                                                                              title(title),
                                                                                              author(author) {
-        this->type = type;
+        this->category = category1;
         this->title = std::move(title);
         this->author = std::move(author);
     }
 
-    BookCategory type;
+    BookCategory category;
     string title;
     string author;
 };
