@@ -1,6 +1,4 @@
-//
-// Created by Vlado on 23-Mar-19.
-//
+
 
 #ifndef CHATBOT_PLAYLIST_H
 #define CHATBOT_PLAYLIST_H
@@ -18,6 +16,8 @@ private:
 public:
     Playlist();
 
+    explicit Playlist(string playlistName);
+
     Playlist(string name, vector<Song> songs);
 
     const string &getName() const;
@@ -26,9 +26,13 @@ public:
 
     const vector<Song> &getMusics() const;
 
-    void addMusic(Song music);
+    void addSong(Song &music);
 
-    Playlist(string playlistName);
+    bool removeSongByIndex(int index);
+
+    int size();
+
+    string toString();
 };
 
 

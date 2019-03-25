@@ -1,6 +1,4 @@
-//
-// Created by Vlado on 23-Mar-19.
-//
+
 
 #ifndef CHATBOT_PLAYLISTSSTORE_H
 #define CHATBOT_PLAYLISTSSTORE_H
@@ -15,6 +13,12 @@ public:
     void addPlaylist(Playlist &playlist);
 
     const vector<Playlist> &getPlaylists() const;
+
+    Playlist& getPlaylistByIndex(int index);
+
+    void addSongToPlaylist(Song &song, int indexOfPlaylist);
+
+    bool removePlaylistByIndex(int index);
 
     bool isEmpty();
 

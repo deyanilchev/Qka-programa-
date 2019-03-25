@@ -100,10 +100,22 @@
 		<Unit filename="C:/Andrian/Programing/Uchilishte/Deyan/ChatBot/Actions/CreatePlayListAction.h">
 			<Option target="ChatBot"/>
 		</Unit>
+		<Unit filename="C:/Andrian/Programing/Uchilishte/Deyan/ChatBot/Actions/DeletePlaylistAction.cpp">
+			<Option target="ChatBot"/>
+		</Unit>
+		<Unit filename="C:/Andrian/Programing/Uchilishte/Deyan/ChatBot/Actions/DeletePlaylistAction.h">
+			<Option target="ChatBot"/>
+		</Unit>
 		<Unit filename="C:/Andrian/Programing/Uchilishte/Deyan/ChatBot/Actions/Executioner.cpp">
 			<Option target="ChatBot"/>
 		</Unit>
 		<Unit filename="C:/Andrian/Programing/Uchilishte/Deyan/ChatBot/Actions/Executioner.h">
+			<Option target="ChatBot"/>
+		</Unit>
+		<Unit filename="C:/Andrian/Programing/Uchilishte/Deyan/ChatBot/Actions/RemoveSongFromPlaylistAction.cpp">
+			<Option target="ChatBot"/>
+		</Unit>
+		<Unit filename="C:/Andrian/Programing/Uchilishte/Deyan/ChatBot/Actions/RemoveSongFromPlaylistAction.h">
 			<Option target="ChatBot"/>
 		</Unit>
 		<Unit filename="C:/Andrian/Programing/Uchilishte/Deyan/ChatBot/Actions/ShowPlayListsAction.cpp">
@@ -122,12 +134,6 @@
 			<Option target="ChatBot"/>
 		</Unit>
 		<Unit filename="C:/Andrian/Programing/Uchilishte/Deyan/ChatBot/InformationStores/playlists/PlaylistsStore.h">
-			<Option target="ChatBot"/>
-		</Unit>
-		<Unit filename="C:/Andrian/Programing/Uchilishte/Deyan/ChatBot/InformationStores/songs/SongsStore.cpp">
-			<Option target="ChatBot"/>
-		</Unit>
-		<Unit filename="C:/Andrian/Programing/Uchilishte/Deyan/ChatBot/InformationStores/songs/SongsStore.h">
 			<Option target="ChatBot"/>
 		</Unit>
 		<Unit filename="C:/Andrian/Programing/Uchilishte/Deyan/ChatBot/InformationStores/user/UserStore.cpp">

@@ -1,8 +1,6 @@
 #include <utility>
 
-//
-// Created by Vlado on 23-Mar-19.
-//
+
 
 #include "Song.h"
 
@@ -24,4 +22,8 @@ void Song::setName(const string &name) {
 
 Song::Song(string artist, string name) : artist(std::move(artist)), name(std::move(name)) {
 
+}
+
+string Song::toString() {
+    return this->getArtist() + " - " + this->getName();
 }

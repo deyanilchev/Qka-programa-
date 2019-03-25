@@ -1,6 +1,4 @@
-//
-// Created by Vlado on 23-Mar-19.
-//
+
 
 #ifndef CHATBOT_USERSTORE_H
 #define CHATBOT_USERSTORE_H

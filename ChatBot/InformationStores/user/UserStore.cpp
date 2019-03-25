@@ -1,6 +1,4 @@
-//
-// Created by Vlado on 23-Mar-19.
-//
+
 
 #include "UserStore.h"
 
@@ -12,11 +10,11 @@ int UserStore::size() {
     return users.size();
 }
 
-vector<User> & UserStore::getUsers() {
+vector<User> &UserStore::getUsers() {
     return users;
 }
 
-User & UserStore::getUser(int index) {
+User &UserStore::getUser(int index) {
     return users[index];
 }
 
@@ -37,7 +35,7 @@ int UserStore::indexOf(string firstName, string secondName, int age) {
     string query = firstName + " " + secondName + " " + std::to_string(age);
 
     for (int i = 0; i < users.size(); ++i) {
-        if(query == users[i].toString())
+        if (query == users[i].toString())
             return i;
     }
 

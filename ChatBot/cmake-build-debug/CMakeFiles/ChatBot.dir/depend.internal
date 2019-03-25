@@ -5,7 +5,6 @@ CMakeFiles/ChatBot.dir/Actions/Action.cpp.obj
  C:/Andrian/Programing/Uchilishte/Deyan/ChatBot/Actions/Action.cpp
  C:/Andrian/Programing/Uchilishte/Deyan/ChatBot/Actions/Action.h
  C:/Andrian/Programing/Uchilishte/Deyan/ChatBot/InformationStores/playlists/PlaylistsStore.h
- C:/Andrian/Programing/Uchilishte/Deyan/ChatBot/InformationStores/songs/SongsStore.h
  C:/Andrian/Programing/Uchilishte/Deyan/ChatBot/InformationStores/user/UserStore.h
  C:/Andrian/Programing/Uchilishte/Deyan/ChatBot/Models/playlist/Playlist.h
  C:/Andrian/Programing/Uchilishte/Deyan/ChatBot/Models/song/Song.h
@@ -15,7 +14,6 @@ CMakeFiles/ChatBot.dir/Actions/AddSongToPlaylistAction.cpp.obj
  C:/Andrian/Programing/Uchilishte/Deyan/ChatBot/Actions/AddSongToPlaylistAction.cpp
  C:/Andrian/Programing/Uchilishte/Deyan/ChatBot/Actions/AddSongToPlaylistAction.h
  C:/Andrian/Programing/Uchilishte/Deyan/ChatBot/InformationStores/playlists/PlaylistsStore.h
- C:/Andrian/Programing/Uchilishte/Deyan/ChatBot/InformationStores/songs/SongsStore.h
  C:/Andrian/Programing/Uchilishte/Deyan/ChatBot/InformationStores/user/UserStore.h
  C:/Andrian/Programing/Uchilishte/Deyan/ChatBot/Models/playlist/Playlist.h
  C:/Andrian/Programing/Uchilishte/Deyan/ChatBot/Models/song/Song.h
@@ -25,7 +23,15 @@ CMakeFiles/ChatBot.dir/Actions/CreatePlayListAction.cpp.obj
  C:/Andrian/Programing/Uchilishte/Deyan/ChatBot/Actions/CreatePlayListAction.cpp
  C:/Andrian/Programing/Uchilishte/Deyan/ChatBot/Actions/CreatePlayListAction.h
  C:/Andrian/Programing/Uchilishte/Deyan/ChatBot/InformationStores/playlists/PlaylistsStore.h
- C:/Andrian/Programing/Uchilishte/Deyan/ChatBot/InformationStores/songs/SongsStore.h
+ C:/Andrian/Programing/Uchilishte/Deyan/ChatBot/InformationStores/user/UserStore.h
+ C:/Andrian/Programing/Uchilishte/Deyan/ChatBot/Models/playlist/Playlist.h
+ C:/Andrian/Programing/Uchilishte/Deyan/ChatBot/Models/song/Song.h
+ C:/Andrian/Programing/Uchilishte/Deyan/ChatBot/Models/user/User.h
+CMakeFiles/ChatBot.dir/Actions/DeletePlaylistAction.cpp.obj
+ C:/Andrian/Programing/Uchilishte/Deyan/ChatBot/Actions/Action.h
+ C:/Andrian/Programing/Uchilishte/Deyan/ChatBot/Actions/DeletePlaylistAction.cpp
+ C:/Andrian/Programing/Uchilishte/Deyan/ChatBot/Actions/DeletePlaylistAction.h
+ C:/Andrian/Programing/Uchilishte/Deyan/ChatBot/InformationStores/playlists/PlaylistsStore.h
  C:/Andrian/Programing/Uchilishte/Deyan/ChatBot/InformationStores/user/UserStore.h
  C:/Andrian/Programing/Uchilishte/Deyan/ChatBot/Models/playlist/Playlist.h
  C:/Andrian/Programing/Uchilishte/Deyan/ChatBot/Models/song/Song.h
@@ -34,11 +40,21 @@ CMakeFiles/ChatBot.dir/Actions/Executioner.cpp.obj
  C:/Andrian/Programing/Uchilishte/Deyan/ChatBot/Actions/Action.h
  C:/Andrian/Programing/Uchilishte/Deyan/ChatBot/Actions/AddSongToPlaylistAction.h
  C:/Andrian/Programing/Uchilishte/Deyan/ChatBot/Actions/CreatePlayListAction.h
+ C:/Andrian/Programing/Uchilishte/Deyan/ChatBot/Actions/DeletePlaylistAction.h
  C:/Andrian/Programing/Uchilishte/Deyan/ChatBot/Actions/Executioner.cpp
  C:/Andrian/Programing/Uchilishte/Deyan/ChatBot/Actions/Executioner.h
+ C:/Andrian/Programing/Uchilishte/Deyan/ChatBot/Actions/RemoveSongFromPlaylistAction.h
  C:/Andrian/Programing/Uchilishte/Deyan/ChatBot/Actions/ShowPlayListsAction.h
  C:/Andrian/Programing/Uchilishte/Deyan/ChatBot/InformationStores/playlists/PlaylistsStore.h
- C:/Andrian/Programing/Uchilishte/Deyan/ChatBot/InformationStores/songs/SongsStore.h
+ C:/Andrian/Programing/Uchilishte/Deyan/ChatBot/InformationStores/user/UserStore.h
+ C:/Andrian/Programing/Uchilishte/Deyan/ChatBot/Models/playlist/Playlist.h
+ C:/Andrian/Programing/Uchilishte/Deyan/ChatBot/Models/song/Song.h
+ C:/Andrian/Programing/Uchilishte/Deyan/ChatBot/Models/user/User.h
+CMakeFiles/ChatBot.dir/Actions/RemoveSongFromPlaylistAction.cpp.obj
+ C:/Andrian/Programing/Uchilishte/Deyan/ChatBot/Actions/Action.h
+ C:/Andrian/Programing/Uchilishte/Deyan/ChatBot/Actions/RemoveSongFromPlaylistAction.cpp
+ C:/Andrian/Programing/Uchilishte/Deyan/ChatBot/Actions/RemoveSongFromPlaylistAction.h
+ C:/Andrian/Programing/Uchilishte/Deyan/ChatBot/InformationStores/playlists/PlaylistsStore.h
  C:/Andrian/Programing/Uchilishte/Deyan/ChatBot/InformationStores/user/UserStore.h
  C:/Andrian/Programing/Uchilishte/Deyan/ChatBot/Models/playlist/Playlist.h
  C:/Andrian/Programing/Uchilishte/Deyan/ChatBot/Models/song/Song.h
@@ -48,7 +64,6 @@ CMakeFiles/ChatBot.dir/Actions/ShowPlayListsAction.cpp.obj
  C:/Andrian/Programing/Uchilishte/Deyan/ChatBot/Actions/ShowPlayListsAction.cpp
  C:/Andrian/Programing/Uchilishte/Deyan/ChatBot/Actions/ShowPlayListsAction.h
  C:/Andrian/Programing/Uchilishte/Deyan/ChatBot/InformationStores/playlists/PlaylistsStore.h
- C:/Andrian/Programing/Uchilishte/Deyan/ChatBot/InformationStores/songs/SongsStore.h
  C:/Andrian/Programing/Uchilishte/Deyan/ChatBot/InformationStores/user/UserStore.h
  C:/Andrian/Programing/Uchilishte/Deyan/ChatBot/Models/playlist/Playlist.h
  C:/Andrian/Programing/Uchilishte/Deyan/ChatBot/Models/song/Song.h
@@ -57,7 +72,6 @@ CMakeFiles/ChatBot.dir/IO/IOOperations.cpp.obj
  C:/Andrian/Programing/Uchilishte/Deyan/ChatBot/IO/IOOperations.cpp
  C:/Andrian/Programing/Uchilishte/Deyan/ChatBot/IO/IOOperations.h
  C:/Andrian/Programing/Uchilishte/Deyan/ChatBot/InformationStores/playlists/PlaylistsStore.h
- C:/Andrian/Programing/Uchilishte/Deyan/ChatBot/InformationStores/songs/SongsStore.h
  C:/Andrian/Programing/Uchilishte/Deyan/ChatBot/InformationStores/user/UserStore.h
  C:/Andrian/Programing/Uchilishte/Deyan/ChatBot/Models/playlist/Playlist.h
  C:/Andrian/Programing/Uchilishte/Deyan/ChatBot/Models/song/Song.h
@@ -66,10 +80,6 @@ CMakeFiles/ChatBot.dir/InformationStores/playlists/PlaylistsStore.cpp.obj
  C:/Andrian/Programing/Uchilishte/Deyan/ChatBot/InformationStores/playlists/PlaylistsStore.cpp
  C:/Andrian/Programing/Uchilishte/Deyan/ChatBot/InformationStores/playlists/PlaylistsStore.h
  C:/Andrian/Programing/Uchilishte/Deyan/ChatBot/Models/playlist/Playlist.h
- C:/Andrian/Programing/Uchilishte/Deyan/ChatBot/Models/song/Song.h
-CMakeFiles/ChatBot.dir/InformationStores/songs/SongsStore.cpp.obj
- C:/Andrian/Programing/Uchilishte/Deyan/ChatBot/InformationStores/songs/SongsStore.cpp
- C:/Andrian/Programing/Uchilishte/Deyan/ChatBot/InformationStores/songs/SongsStore.h
  C:/Andrian/Programing/Uchilishte/Deyan/ChatBot/Models/song/Song.h
 CMakeFiles/ChatBot.dir/InformationStores/user/UserStore.cpp.obj
  C:/Andrian/Programing/Uchilishte/Deyan/ChatBot/InformationStores/user/UserStore.cpp
@@ -93,7 +103,6 @@ CMakeFiles/ChatBot.dir/main.cpp.obj
  C:/Andrian/Programing/Uchilishte/Deyan/ChatBot/Actions/Executioner.h
  C:/Andrian/Programing/Uchilishte/Deyan/ChatBot/IO/IOOperations.h
  C:/Andrian/Programing/Uchilishte/Deyan/ChatBot/InformationStores/playlists/PlaylistsStore.h
- C:/Andrian/Programing/Uchilishte/Deyan/ChatBot/InformationStores/songs/SongsStore.h
  C:/Andrian/Programing/Uchilishte/Deyan/ChatBot/InformationStores/user/UserStore.h
  C:/Andrian/Programing/Uchilishte/Deyan/ChatBot/Models/playlist/Playlist.h
  C:/Andrian/Programing/Uchilishte/Deyan/ChatBot/Models/song/Song.h

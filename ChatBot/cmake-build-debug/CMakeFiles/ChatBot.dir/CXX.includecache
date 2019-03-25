@@ -11,30 +11,32 @@ string
 C:/Andrian/Programing/Uchilishte/Deyan/ChatBot/Actions/string
 ../InformationStores/playlists/PlaylistsStore.h
 C:/Andrian/Programing/Uchilishte/Deyan/ChatBot/InformationStores/playlists/PlaylistsStore.h
-../InformationStores/songs/SongsStore.h
-C:/Andrian/Programing/Uchilishte/Deyan/ChatBot/InformationStores/songs/SongsStore.h
 ../InformationStores/user/UserStore.h
 C:/Andrian/Programing/Uchilishte/Deyan/ChatBot/InformationStores/user/UserStore.h
 
-C:/Andrian/Programing/Uchilishte/Deyan/ChatBot/Actions/AddSongToPlaylistAction.cpp
-AddSongToPlaylistAction.h
-C:/Andrian/Programing/Uchilishte/Deyan/ChatBot/Actions/AddSongToPlaylistAction.h
+C:/Andrian/Programing/Uchilishte/Deyan/ChatBot/Actions/DeletePlaylistAction.cpp
+DeletePlaylistAction.h
+C:/Andrian/Programing/Uchilishte/Deyan/ChatBot/Actions/DeletePlaylistAction.h
 iostream
 C:/Andrian/Programing/Uchilishte/Deyan/ChatBot/Actions/iostream
 
-C:/Andrian/Programing/Uchilishte/Deyan/ChatBot/Actions/AddSongToPlaylistAction.h
+C:/Andrian/Programing/Uchilishte/Deyan/ChatBot/Actions/DeletePlaylistAction.h
+Action.h
+C:/Andrian/Programing/Uchilishte/Deyan/ChatBot/Actions/Action.h
+
+C:/Andrian/Programing/Uchilishte/Deyan/ChatBot/Actions/RemoveSongFromPlaylistAction.cpp
+RemoveSongFromPlaylistAction.h
+C:/Andrian/Programing/Uchilishte/Deyan/ChatBot/Actions/RemoveSongFromPlaylistAction.h
+iostream
+C:/Andrian/Programing/Uchilishte/Deyan/ChatBot/Actions/iostream
+
+C:/Andrian/Programing/Uchilishte/Deyan/ChatBot/Actions/RemoveSongFromPlaylistAction.h
 Action.h
 C:/Andrian/Programing/Uchilishte/Deyan/ChatBot/Actions/Action.h
 
 C:/Andrian/Programing/Uchilishte/Deyan/ChatBot/InformationStores/playlists/PlaylistsStore.h
 ../../Models/playlist/Playlist.h
 C:/Andrian/Programing/Uchilishte/Deyan/ChatBot/Models/playlist/Playlist.h
-
-C:/Andrian/Programing/Uchilishte/Deyan/ChatBot/InformationStores/songs/SongsStore.h
-vector
--
-../../Models/song/Song.h
-C:/Andrian/Programing/Uchilishte/Deyan/ChatBot/Models/song/Song.h
 
 C:/Andrian/Programing/Uchilishte/Deyan/ChatBot/InformationStores/user/UserStore.h
 ../../Models/user/User.h

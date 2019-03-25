@@ -134,22 +134,9 @@ CMakeFiles/ChatBot.dir/IO/IOOperations.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ChatBot.dir/IO/IOOperations.cpp.s"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Andrian\Programing\Uchilishte\Deyan\ChatBot\IO\IOOperations.cpp -o CMakeFiles\ChatBot.dir\IO\IOOperations.cpp.s
 
-CMakeFiles/ChatBot.dir/InformationStores/songs/SongsStore.cpp.obj: CMakeFiles/ChatBot.dir/flags.make
-CMakeFiles/ChatBot.dir/InformationStores/songs/SongsStore.cpp.obj: ../InformationStores/songs/SongsStore.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Andrian\Programing\Uchilishte\Deyan\ChatBot\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/ChatBot.dir/InformationStores/songs/SongsStore.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ChatBot.dir\InformationStores\songs\SongsStore.cpp.obj -c C:\Andrian\Programing\Uchilishte\Deyan\ChatBot\InformationStores\songs\SongsStore.cpp
-
-CMakeFiles/ChatBot.dir/InformationStores/songs/SongsStore.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ChatBot.dir/InformationStores/songs/SongsStore.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Andrian\Programing\Uchilishte\Deyan\ChatBot\InformationStores\songs\SongsStore.cpp > CMakeFiles\ChatBot.dir\InformationStores\songs\SongsStore.cpp.i
-
-CMakeFiles/ChatBot.dir/InformationStores/songs/SongsStore.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ChatBot.dir/InformationStores/songs/SongsStore.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Andrian\Programing\Uchilishte\Deyan\ChatBot\InformationStores\songs\SongsStore.cpp -o CMakeFiles\ChatBot.dir\InformationStores\songs\SongsStore.cpp.s
-
 CMakeFiles/ChatBot.dir/InformationStores/playlists/PlaylistsStore.cpp.obj: CMakeFiles/ChatBot.dir/flags.make
 CMakeFiles/ChatBot.dir/InformationStores/playlists/PlaylistsStore.cpp.obj: ../InformationStores/playlists/PlaylistsStore.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Andrian\Programing\Uchilishte\Deyan\ChatBot\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/ChatBot.dir/InformationStores/playlists/PlaylistsStore.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Andrian\Programing\Uchilishte\Deyan\ChatBot\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/ChatBot.dir/InformationStores/playlists/PlaylistsStore.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ChatBot.dir\InformationStores\playlists\PlaylistsStore.cpp.obj -c C:\Andrian\Programing\Uchilishte\Deyan\ChatBot\InformationStores\playlists\PlaylistsStore.cpp
 
 CMakeFiles/ChatBot.dir/InformationStores/playlists/PlaylistsStore.cpp.i: cmake_force
@@ -162,7 +149,7 @@ CMakeFiles/ChatBot.dir/InformationStores/playlists/PlaylistsStore.cpp.s: cmake_f
 
 CMakeFiles/ChatBot.dir/Actions/Action.cpp.obj: CMakeFiles/ChatBot.dir/flags.make
 CMakeFiles/ChatBot.dir/Actions/Action.cpp.obj: ../Actions/Action.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Andrian\Programing\Uchilishte\Deyan\ChatBot\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/ChatBot.dir/Actions/Action.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Andrian\Programing\Uchilishte\Deyan\ChatBot\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/ChatBot.dir/Actions/Action.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ChatBot.dir\Actions\Action.cpp.obj -c C:\Andrian\Programing\Uchilishte\Deyan\ChatBot\Actions\Action.cpp
 
 CMakeFiles/ChatBot.dir/Actions/Action.cpp.i: cmake_force
@@ -175,7 +162,7 @@ CMakeFiles/ChatBot.dir/Actions/Action.cpp.s: cmake_force
 
 CMakeFiles/ChatBot.dir/Actions/Executioner.cpp.obj: CMakeFiles/ChatBot.dir/flags.make
 CMakeFiles/ChatBot.dir/Actions/Executioner.cpp.obj: ../Actions/Executioner.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Andrian\Programing\Uchilishte\Deyan\ChatBot\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/ChatBot.dir/Actions/Executioner.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Andrian\Programing\Uchilishte\Deyan\ChatBot\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/ChatBot.dir/Actions/Executioner.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ChatBot.dir\Actions\Executioner.cpp.obj -c C:\Andrian\Programing\Uchilishte\Deyan\ChatBot\Actions\Executioner.cpp
 
 CMakeFiles/ChatBot.dir/Actions/Executioner.cpp.i: cmake_force
@@ -188,7 +175,7 @@ CMakeFiles/ChatBot.dir/Actions/Executioner.cpp.s: cmake_force
 
 CMakeFiles/ChatBot.dir/Actions/ShowPlayListsAction.cpp.obj: CMakeFiles/ChatBot.dir/flags.make
 CMakeFiles/ChatBot.dir/Actions/ShowPlayListsAction.cpp.obj: ../Actions/ShowPlayListsAction.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Andrian\Programing\Uchilishte\Deyan\ChatBot\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/ChatBot.dir/Actions/ShowPlayListsAction.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Andrian\Programing\Uchilishte\Deyan\ChatBot\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/ChatBot.dir/Actions/ShowPlayListsAction.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ChatBot.dir\Actions\ShowPlayListsAction.cpp.obj -c C:\Andrian\Programing\Uchilishte\Deyan\ChatBot\Actions\ShowPlayListsAction.cpp
 
 CMakeFiles/ChatBot.dir/Actions/ShowPlayListsAction.cpp.i: cmake_force
@@ -201,7 +188,7 @@ CMakeFiles/ChatBot.dir/Actions/ShowPlayListsAction.cpp.s: cmake_force
 
 CMakeFiles/ChatBot.dir/Actions/CreatePlayListAction.cpp.obj: CMakeFiles/ChatBot.dir/flags.make
 CMakeFiles/ChatBot.dir/Actions/CreatePlayListAction.cpp.obj: ../Actions/CreatePlayListAction.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Andrian\Programing\Uchilishte\Deyan\ChatBot\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/ChatBot.dir/Actions/CreatePlayListAction.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Andrian\Programing\Uchilishte\Deyan\ChatBot\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/ChatBot.dir/Actions/CreatePlayListAction.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ChatBot.dir\Actions\CreatePlayListAction.cpp.obj -c C:\Andrian\Programing\Uchilishte\Deyan\ChatBot\Actions\CreatePlayListAction.cpp
 
 CMakeFiles/ChatBot.dir/Actions/CreatePlayListAction.cpp.i: cmake_force
@@ -214,7 +201,7 @@ CMakeFiles/ChatBot.dir/Actions/CreatePlayListAction.cpp.s: cmake_force
 
 CMakeFiles/ChatBot.dir/Actions/AddSongToPlaylistAction.cpp.obj: CMakeFiles/ChatBot.dir/flags.make
 CMakeFiles/ChatBot.dir/Actions/AddSongToPlaylistAction.cpp.obj: ../Actions/AddSongToPlaylistAction.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Andrian\Programing\Uchilishte\Deyan\ChatBot\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/ChatBot.dir/Actions/AddSongToPlaylistAction.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Andrian\Programing\Uchilishte\Deyan\ChatBot\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/ChatBot.dir/Actions/AddSongToPlaylistAction.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ChatBot.dir\Actions\AddSongToPlaylistAction.cpp.obj -c C:\Andrian\Programing\Uchilishte\Deyan\ChatBot\Actions\AddSongToPlaylistAction.cpp
 
 CMakeFiles/ChatBot.dir/Actions/AddSongToPlaylistAction.cpp.i: cmake_force
@@ -225,6 +212,32 @@ CMakeFiles/ChatBot.dir/Actions/AddSongToPlaylistAction.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ChatBot.dir/Actions/AddSongToPlaylistAction.cpp.s"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Andrian\Programing\Uchilishte\Deyan\ChatBot\Actions\AddSongToPlaylistAction.cpp -o CMakeFiles\ChatBot.dir\Actions\AddSongToPlaylistAction.cpp.s
 
+CMakeFiles/ChatBot.dir/Actions/RemoveSongFromPlaylistAction.cpp.obj: CMakeFiles/ChatBot.dir/flags.make
+CMakeFiles/ChatBot.dir/Actions/RemoveSongFromPlaylistAction.cpp.obj: ../Actions/RemoveSongFromPlaylistAction.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Andrian\Programing\Uchilishte\Deyan\ChatBot\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/ChatBot.dir/Actions/RemoveSongFromPlaylistAction.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ChatBot.dir\Actions\RemoveSongFromPlaylistAction.cpp.obj -c C:\Andrian\Programing\Uchilishte\Deyan\ChatBot\Actions\RemoveSongFromPlaylistAction.cpp
+
+CMakeFiles/ChatBot.dir/Actions/RemoveSongFromPlaylistAction.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ChatBot.dir/Actions/RemoveSongFromPlaylistAction.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Andrian\Programing\Uchilishte\Deyan\ChatBot\Actions\RemoveSongFromPlaylistAction.cpp > CMakeFiles\ChatBot.dir\Actions\RemoveSongFromPlaylistAction.cpp.i
+
+CMakeFiles/ChatBot.dir/Actions/RemoveSongFromPlaylistAction.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ChatBot.dir/Actions/RemoveSongFromPlaylistAction.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Andrian\Programing\Uchilishte\Deyan\ChatBot\Actions\RemoveSongFromPlaylistAction.cpp -o CMakeFiles\ChatBot.dir\Actions\RemoveSongFromPlaylistAction.cpp.s
+
+CMakeFiles/ChatBot.dir/Actions/DeletePlaylistAction.cpp.obj: CMakeFiles/ChatBot.dir/flags.make
+CMakeFiles/ChatBot.dir/Actions/DeletePlaylistAction.cpp.obj: ../Actions/DeletePlaylistAction.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Andrian\Programing\Uchilishte\Deyan\ChatBot\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/ChatBot.dir/Actions/DeletePlaylistAction.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ChatBot.dir\Actions\DeletePlaylistAction.cpp.obj -c C:\Andrian\Programing\Uchilishte\Deyan\ChatBot\Actions\DeletePlaylistAction.cpp
+
+CMakeFiles/ChatBot.dir/Actions/DeletePlaylistAction.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ChatBot.dir/Actions/DeletePlaylistAction.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Andrian\Programing\Uchilishte\Deyan\ChatBot\Actions\DeletePlaylistAction.cpp > CMakeFiles\ChatBot.dir\Actions\DeletePlaylistAction.cpp.i
+
+CMakeFiles/ChatBot.dir/Actions/DeletePlaylistAction.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ChatBot.dir/Actions/DeletePlaylistAction.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Andrian\Programing\Uchilishte\Deyan\ChatBot\Actions\DeletePlaylistAction.cpp -o CMakeFiles\ChatBot.dir\Actions\DeletePlaylistAction.cpp.s
+
 # Object files for target ChatBot
 ChatBot_OBJECTS = \
 "CMakeFiles/ChatBot.dir/main.cpp.obj" \
@@ -233,13 +246,14 @@ ChatBot_OBJECTS = \
 "CMakeFiles/ChatBot.dir/Models/playlist/Playlist.cpp.obj" \
 "CMakeFiles/ChatBot.dir/Models/song/Song.cpp.obj" \
 "CMakeFiles/ChatBot.dir/IO/IOOperations.cpp.obj" \
-"CMakeFiles/ChatBot.dir/InformationStores/songs/SongsStore.cpp.obj" \
 "CMakeFiles/ChatBot.dir/InformationStores/playlists/PlaylistsStore.cpp.obj" \
 "CMakeFiles/ChatBot.dir/Actions/Action.cpp.obj" \
 "CMakeFiles/ChatBot.dir/Actions/Executioner.cpp.obj" \
 "CMakeFiles/ChatBot.dir/Actions/ShowPlayListsAction.cpp.obj" \
 "CMakeFiles/ChatBot.dir/Actions/CreatePlayListAction.cpp.obj" \
-"CMakeFiles/ChatBot.dir/Actions/AddSongToPlaylistAction.cpp.obj"
+"CMakeFiles/ChatBot.dir/Actions/AddSongToPlaylistAction.cpp.obj" \
+"CMakeFiles/ChatBot.dir/Actions/RemoveSongFromPlaylistAction.cpp.obj" \
+"CMakeFiles/ChatBot.dir/Actions/DeletePlaylistAction.cpp.obj"
 
 # External object files for target ChatBot
 ChatBot_EXTERNAL_OBJECTS =
@@ -250,18 +264,19 @@ ChatBot.exe: CMakeFiles/ChatBot.dir/Models/user/User.cpp.obj
 ChatBot.exe: CMakeFiles/ChatBot.dir/Models/playlist/Playlist.cpp.obj
 ChatBot.exe: CMakeFiles/ChatBot.dir/Models/song/Song.cpp.obj
 ChatBot.exe: CMakeFiles/ChatBot.dir/IO/IOOperations.cpp.obj
-ChatBot.exe: CMakeFiles/ChatBot.dir/InformationStores/songs/SongsStore.cpp.obj
 ChatBot.exe: CMakeFiles/ChatBot.dir/InformationStores/playlists/PlaylistsStore.cpp.obj
 ChatBot.exe: CMakeFiles/ChatBot.dir/Actions/Action.cpp.obj
 ChatBot.exe: CMakeFiles/ChatBot.dir/Actions/Executioner.cpp.obj
 ChatBot.exe: CMakeFiles/ChatBot.dir/Actions/ShowPlayListsAction.cpp.obj
 ChatBot.exe: CMakeFiles/ChatBot.dir/Actions/CreatePlayListAction.cpp.obj
 ChatBot.exe: CMakeFiles/ChatBot.dir/Actions/AddSongToPlaylistAction.cpp.obj
+ChatBot.exe: CMakeFiles/ChatBot.dir/Actions/RemoveSongFromPlaylistAction.cpp.obj
+ChatBot.exe: CMakeFiles/ChatBot.dir/Actions/DeletePlaylistAction.cpp.obj
 ChatBot.exe: CMakeFiles/ChatBot.dir/build.make
 ChatBot.exe: CMakeFiles/ChatBot.dir/linklibs.rsp
 ChatBot.exe: CMakeFiles/ChatBot.dir/objects1.rsp
 ChatBot.exe: CMakeFiles/ChatBot.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Andrian\Programing\Uchilishte\Deyan\ChatBot\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable ChatBot.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Andrian\Programing\Uchilishte\Deyan\ChatBot\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX executable ChatBot.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\ChatBot.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -203,6 +203,33 @@ Actions/CreatePlayListAction.cpp.s:
 	$(MAKE) -f CMakeFiles\ChatBot.dir\build.make CMakeFiles/ChatBot.dir/Actions/CreatePlayListAction.cpp.s
 .PHONY : Actions/CreatePlayListAction.cpp.s
 
+Actions/DeletePlaylistAction.obj: Actions/DeletePlaylistAction.cpp.obj
+
+.PHONY : Actions/DeletePlaylistAction.obj
+
+# target to build an object file
+Actions/DeletePlaylistAction.cpp.obj:
+	$(MAKE) -f CMakeFiles\ChatBot.dir\build.make CMakeFiles/ChatBot.dir/Actions/DeletePlaylistAction.cpp.obj
+.PHONY : Actions/DeletePlaylistAction.cpp.obj
+
+Actions/DeletePlaylistAction.i: Actions/DeletePlaylistAction.cpp.i
+
+.PHONY : Actions/DeletePlaylistAction.i
+
+# target to preprocess a source file
+Actions/DeletePlaylistAction.cpp.i:
+	$(MAKE) -f CMakeFiles\ChatBot.dir\build.make CMakeFiles/ChatBot.dir/Actions/DeletePlaylistAction.cpp.i
+.PHONY : Actions/DeletePlaylistAction.cpp.i
+
+Actions/DeletePlaylistAction.s: Actions/DeletePlaylistAction.cpp.s
+
+.PHONY : Actions/DeletePlaylistAction.s
+
+# target to generate assembly for a file
+Actions/DeletePlaylistAction.cpp.s:
+	$(MAKE) -f CMakeFiles\ChatBot.dir\build.make CMakeFiles/ChatBot.dir/Actions/DeletePlaylistAction.cpp.s
+.PHONY : Actions/DeletePlaylistAction.cpp.s
+
 Actions/Executioner.obj: Actions/Executioner.cpp.obj
 
 .PHONY : Actions/Executioner.obj
@@ -229,6 +256,33 @@ Actions/Executioner.s: Actions/Executioner.cpp.s
 Actions/Executioner.cpp.s:
 	$(MAKE) -f CMakeFiles\ChatBot.dir\build.make CMakeFiles/ChatBot.dir/Actions/Executioner.cpp.s
 .PHONY : Actions/Executioner.cpp.s
+
+Actions/RemoveSongFromPlaylistAction.obj: Actions/RemoveSongFromPlaylistAction.cpp.obj
+
+.PHONY : Actions/RemoveSongFromPlaylistAction.obj
+
+# target to build an object file
+Actions/RemoveSongFromPlaylistAction.cpp.obj:
+	$(MAKE) -f CMakeFiles\ChatBot.dir\build.make CMakeFiles/ChatBot.dir/Actions/RemoveSongFromPlaylistAction.cpp.obj
+.PHONY : Actions/RemoveSongFromPlaylistAction.cpp.obj
+
+Actions/RemoveSongFromPlaylistAction.i: Actions/RemoveSongFromPlaylistAction.cpp.i
+
+.PHONY : Actions/RemoveSongFromPlaylistAction.i
+
+# target to preprocess a source file
+Actions/RemoveSongFromPlaylistAction.cpp.i:
+	$(MAKE) -f CMakeFiles\ChatBot.dir\build.make CMakeFiles/ChatBot.dir/Actions/RemoveSongFromPlaylistAction.cpp.i
+.PHONY : Actions/RemoveSongFromPlaylistAction.cpp.i
+
+Actions/RemoveSongFromPlaylistAction.s: Actions/RemoveSongFromPlaylistAction.cpp.s
+
+.PHONY : Actions/RemoveSongFromPlaylistAction.s
+
+# target to generate assembly for a file
+Actions/RemoveSongFromPlaylistAction.cpp.s:
+	$(MAKE) -f CMakeFiles\ChatBot.dir\build.make CMakeFiles/ChatBot.dir/Actions/RemoveSongFromPlaylistAction.cpp.s
+.PHONY : Actions/RemoveSongFromPlaylistAction.cpp.s
 
 Actions/ShowPlayListsAction.obj: Actions/ShowPlayListsAction.cpp.obj
 
@@ -310,33 +364,6 @@ InformationStores/playlists/PlaylistsStore.s: InformationStores/playlists/Playli
 InformationStores/playlists/PlaylistsStore.cpp.s:
 	$(MAKE) -f CMakeFiles\ChatBot.dir\build.make CMakeFiles/ChatBot.dir/InformationStores/playlists/PlaylistsStore.cpp.s
 .PHONY : InformationStores/playlists/PlaylistsStore.cpp.s
-
-InformationStores/songs/SongsStore.obj: InformationStores/songs/SongsStore.cpp.obj
-
-.PHONY : InformationStores/songs/SongsStore.obj
-
-# target to build an object file
-InformationStores/songs/SongsStore.cpp.obj:
-	$(MAKE) -f CMakeFiles\ChatBot.dir\build.make CMakeFiles/ChatBot.dir/InformationStores/songs/SongsStore.cpp.obj
-.PHONY : InformationStores/songs/SongsStore.cpp.obj
-
-InformationStores/songs/SongsStore.i: InformationStores/songs/SongsStore.cpp.i
-
-.PHONY : InformationStores/songs/SongsStore.i
-
-# target to preprocess a source file
-InformationStores/songs/SongsStore.cpp.i:
-	$(MAKE) -f CMakeFiles\ChatBot.dir\build.make CMakeFiles/ChatBot.dir/InformationStores/songs/SongsStore.cpp.i
-.PHONY : InformationStores/songs/SongsStore.cpp.i
-
-InformationStores/songs/SongsStore.s: InformationStores/songs/SongsStore.cpp.s
-
-.PHONY : InformationStores/songs/SongsStore.s
-
-# target to generate assembly for a file
-InformationStores/songs/SongsStore.cpp.s:
-	$(MAKE) -f CMakeFiles\ChatBot.dir\build.make CMakeFiles/ChatBot.dir/InformationStores/songs/SongsStore.cpp.s
-.PHONY : InformationStores/songs/SongsStore.cpp.s
 
 InformationStores/user/UserStore.obj: InformationStores/user/UserStore.cpp.obj
 
@@ -491,9 +518,15 @@ help:
 	@echo ... Actions/CreatePlayListAction.obj
 	@echo ... Actions/CreatePlayListAction.i
 	@echo ... Actions/CreatePlayListAction.s
+	@echo ... Actions/DeletePlaylistAction.obj
+	@echo ... Actions/DeletePlaylistAction.i
+	@echo ... Actions/DeletePlaylistAction.s
 	@echo ... Actions/Executioner.obj
 	@echo ... Actions/Executioner.i
 	@echo ... Actions/Executioner.s
+	@echo ... Actions/RemoveSongFromPlaylistAction.obj
+	@echo ... Actions/RemoveSongFromPlaylistAction.i
+	@echo ... Actions/RemoveSongFromPlaylistAction.s
 	@echo ... Actions/ShowPlayListsAction.obj
 	@echo ... Actions/ShowPlayListsAction.i
 	@echo ... Actions/ShowPlayListsAction.s
@@ -503,9 +536,6 @@ help:
 	@echo ... InformationStores/playlists/PlaylistsStore.obj
 	@echo ... InformationStores/playlists/PlaylistsStore.i
 	@echo ... InformationStores/playlists/PlaylistsStore.s
-	@echo ... InformationStores/songs/SongsStore.obj
-	@echo ... InformationStores/songs/SongsStore.i
-	@echo ... InformationStores/songs/SongsStore.s
 	@echo ... InformationStores/user/UserStore.obj
 	@echo ... InformationStores/user/UserStore.i
 	@echo ... InformationStores/user/UserStore.s

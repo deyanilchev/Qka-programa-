@@ -1,6 +1,4 @@
-//
-// Created by Vlado on 23-Mar-19.
-//
+
 
 #ifndef CHATBOT_SHOWPLAYLISTSACTION_H
 #define CHATBOT_SHOWPLAYLISTSACTION_H
@@ -10,7 +8,7 @@
 
 class ShowPlayListsAction : public Action {
 public:
-    void execute(PlaylistsStore playlistsStore, SongsStore songsStore, UserStore userStore, User& user) override;
+    void execute(PlaylistsStore &playlistsStore, UserStore &userStore, User &user) override;
 };
 
 

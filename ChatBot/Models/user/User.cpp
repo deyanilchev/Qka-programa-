@@ -1,8 +1,6 @@
 #include <utility>
 
-//
-// Created by Vlado on 23-Mar-19.
-//
+
 
 #include "User.h"
 #include "iostream"
@@ -17,7 +15,7 @@ void User::setName(const string &name) {
     User::name = name;
 }
 
-const vector<Playlist> &User::getPlaylists() const {
+vector<Playlist> &User::getPlaylists() {
     return playlists;
 }
 
@@ -50,6 +48,22 @@ long long int User::getId() const {
 
 void User::setId(long long int id) {
     User::id = id;
+}
+
+void User::addSongToPlaylist(Song &song, int indexOfPlaylist) {
+    User::playlists[indexOfPlaylist].addSong(song);
+}
+
+Playlist &User::getPlaylistByIndex(int index) {
+    return User::playlists[index];
+}
+
+bool User::removePlaylistByIndex(int index) {
+    if (index < 0 || index >= playlists.size())
+        return false;
+
+    playlists.erase(playlists.begin() + index);
+    return true;
 }
 
 User::User() = default;

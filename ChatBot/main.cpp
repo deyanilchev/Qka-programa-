@@ -13,12 +13,11 @@ char toLowerCase(char in) {
 
 int main() {
     UserStore userStore;
-    SongsStore songsStore;
     PlaylistsStore playlistsStore;
 
-    IOOperations operations(userStore, songsStore, playlistsStore);
+    IOOperations operations(userStore, playlistsStore);
 
-    Executioner executioner(userStore, songsStore, playlistsStore);
+    Executioner executioner(userStore, playlistsStore);
 
     operations.loadAppInfo();
 
@@ -65,7 +64,7 @@ int main() {
         cout << "Since I am not able to find you in my database your info has been added" << endl;
     }
 
-    User user = userStore.getUser(userStore.indexOf(firstName, secondName, age));
+    User &user = userStore.getUser(userStore.indexOf(firstName, secondName, age));
 
     string action;
     while (true) {
@@ -83,8 +82,13 @@ int main() {
 
         executioner.execute(action, user);
 
-        if (action == "stop")
+        if (action == "stop") {
+            cout << "Saving you information to the database...." << endl;
+            operations.saveAppInfo();
+            cout << "All saved." << endl;
             return 1;
+        }
+
     }
 
     // As ID Generator

@@ -1,6 +1,4 @@
-//
-// Created by Vlado on 23-Mar-19.
-//
+
 
 #include <iostream>
 #include "CreatePlayListAction.h"
@@ -8,8 +6,8 @@
 using namespace std;
 
 void
-CreatePlayListAction::execute(PlaylistsStore playlistsStore, SongsStore songsStore, UserStore userStore, User &user) {
-    cout << "Enter Playlist name: ";
+CreatePlayListAction::execute(PlaylistsStore &playlistsStore, UserStore &userStore, User &user) {
+    cout << "Enter Playlist name: " << endl;
 
     string playListName;
     cin >> playListName;

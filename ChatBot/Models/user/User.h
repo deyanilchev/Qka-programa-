@@ -1,6 +1,4 @@
-//
-// Created by Vlado on 23-Mar-19.
-//
+
 
 #ifndef CHATBOT_USER_H
 #define CHATBOT_USER_H
@@ -37,9 +35,15 @@ public:
 
     void setSecondName(const string &secondName);
 
-    const vector<Playlist> &getPlaylists() const;
+    vector<Playlist> &getPlaylists();
+
+    void addSongToPlaylist(Song &song, int indexOfPlaylist);
 
     void addPlaylist(Playlist &playlist);
+
+    Playlist& getPlaylistByIndex(int index);
+
+    bool removePlaylistByIndex(int index);
 
     string toString();
 };
