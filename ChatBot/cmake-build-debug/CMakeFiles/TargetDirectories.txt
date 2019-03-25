@@ -1,0 +1,3 @@
+C:/Andrian/Programing/Uchilishte/Deyan/ChatBot/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Andrian/Programing/Uchilishte/Deyan/ChatBot/cmake-build-debug/CMakeFiles/ChatBot.dir
+C:/Andrian/Programing/Uchilishte/Deyan/ChatBot/cmake-build-debug/CMakeFiles/rebuild_cache.dir
